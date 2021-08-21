@@ -9,7 +9,7 @@ cat /etc/apt/sources.list.d/nodesource.list
 echo "run install nodejs 14 :"
 apt -y install nodejs
 echo "node version installed --> $(node -v)"
-
+apt install npm
 echo "install yarn :"
 npm install -g yarn
 
